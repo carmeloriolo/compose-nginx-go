@@ -8,7 +8,7 @@ import (
 
 func main() {
 	r := gin.Default()
-	r.POST("/sign", func(c *gin.Context) {
+	r.POST("/signup", func(c *gin.Context) {
 		var json models.User
 		if err := c.ShouldBindJSON(&json); err != nil {
 			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
