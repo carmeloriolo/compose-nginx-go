@@ -1,4 +1,5 @@
-## Business Logic Core (mono)Repository
+## Multi services (mono)Repository Skeleton
+Based on docker-compose
 
 List of Services:
 * Signup
